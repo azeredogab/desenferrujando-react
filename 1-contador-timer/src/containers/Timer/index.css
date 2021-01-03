@@ -1,0 +1,16 @@
+.timer {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #c0c0c0;
+}
+
+.timer .label {
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}

@@ -1,0 +1,16 @@
+.contador {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    margin: 0 auto;
+    /* border: 1px solid #c0c0c0; */
+}
+
+.contador .label {
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}

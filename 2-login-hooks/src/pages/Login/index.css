@@ -1,0 +1,46 @@
+.Login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login .Login_Box {
+    padding: 30px;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+}
+.Login .Login_Box .Login_Box_Fields {
+    margin: 30px 60px;
+}
+.Login .Login_Box .Login_Box_Fields .Box_Fields_Field {
+    display: flex;
+    flex-direction: column;
+}
+.Login .Login_Box .Login_Box_Fields .Box_Fields_Field input {
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: monospace;
+}
+.Login .Login_Box .Login_Box_Fields .Box_Fields_Field label {
+    font-size: 20px;
+    font-family: monospace;
+    margin: 13px 0px 3px 0px;
+}
+.Login .Login_Box .Login_Box_Fields .Box_Fields_Field button {
+    margin-top: 30px;
+    height: 43px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px 0px #c0c0c0;
+    cursor: pointer;
+    transition: .3s all;
+    outline: none;
+}
+
+.Login .Login_Box .Login_Box_Fields .Box_Fields_Field button:hover {
+    box-shadow: 1px 5px 5px 0px #c0c0c0;
+}
